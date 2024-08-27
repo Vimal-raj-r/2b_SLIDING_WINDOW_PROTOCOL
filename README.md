@@ -35,6 +35,7 @@ while True:
     print(s.recv(1024).decode())
     s.send("acknowledgement received from the server".encode())
 
+
 ## OUPUT
 ![Screenshot (30)](https://github.com/user-attachments/assets/78a90737-ccb3-4074-9a7c-2024590a31db)
 ![Screenshot (29)](https://github.com/user-attachments/assets/ef78c747-fc3a-4e07-8cbd-22ee23fbce36)
